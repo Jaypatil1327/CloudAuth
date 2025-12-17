@@ -21,7 +21,7 @@ export const signup = [
     type: "text",
   },
   {
-    name: "phone number",
+    name: "phone_number",
     label: "Phone Number",
     placeholder: "enter your ph.no",
     type: "number",

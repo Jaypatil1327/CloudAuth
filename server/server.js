@@ -14,11 +14,3 @@ app.use(
 app.listen(process.env.PORT, () => {
   console.log("server is running at ", process.env.PORT);
 });
-
-app.get("/api/test", (req, res) => {
-  console.log("someone requested to api");
-  res.status(200).json({
-    success: true,
-    message: "successfully connected to server",
-  });
-});

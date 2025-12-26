@@ -1,0 +1,15 @@
+auth schema {
+    username , 
+    email , 
+    password , 
+    isEmailVerified , 
+    forgotPassword , (ratelimiting)
+    twoFactorAuth , 
+    twoFactorAuthSecret , 
+    googleID , 
+    objectId (will be used later for internal app configs)
+}
+
+
+dotenv  nodemailer cookie-parser googleapies jsonwebtoken bcryptjs zod express-rate-limiting cors nodemon
+
